@@ -4,6 +4,15 @@ Simulacro de examen II de la asignatura **Entornos de Desarrollo** de DAM (CESUR
 
 ## :clipboard: Enunciado:
 
+Se desea diseñar un diagrama de clases sobre la información de las reservas de una empresa dedicada al alquiler de automóviles, teniendo en cuenta que:
+
+-  Un determinado cliente puede tener en un momento dado hechas varias reservas.
+-  De cada cliente se desea almacenar su DNI, nombre, dirección y teléfono. Además dos clientes se diferencian con un código único. Cada cliente puede ser avalado por otro cliente de la empresa.
+-  Una reserva la realiza un único cliente pero puede involucrar varios coches.
+-  Es importante registrar la fecha de inicio y final de la reserva, el precio del alquiler de cada uno de los coches, litros de gasolina en el depósito en el momento de realizar la reserva, precio total de la reserva y un indicador de si el coche o los coches han sido entregados.
+-  Todo coche tiene siempre asignado un determinado garage que no puede cambiar. De cada coche se requiere la matrícula, el modelo, el color y la marca.
+-  Cada reserva se realiza en una determinada agencia.
+
 ## :mag: Análisis de entidades:
 
 Dado el enunciado anterior, se distinguen los siguientes elementos para el diagrama de clases a desarrollar:
